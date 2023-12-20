@@ -42,6 +42,10 @@ section::before {
     font-size: 32px;
 }
 
+.home img {
+    width: 100%;
+}
+
 .home .arrow img {
     width: 60px;
 }
@@ -142,6 +146,29 @@ section::before {
 
 .form-label {
     font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+    .home img {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    section::before {
+        left: 5px;
+        font-size: 62px;
+    }
+}
+
+@media only screen and (max-width: 455px) {
+    .home h1 {
+        font-size: 32px;
+    }
+
+    .home h3 {
+        font-size: 24px;
+    }
 }
 
 @keyframes upDown {
