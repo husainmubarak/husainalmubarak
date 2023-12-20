@@ -1,3 +1,4 @@
+//Toggle about
 function toggleDetail(e) {
     const target = $(e.target)
 
@@ -13,6 +14,28 @@ function toggleDetail(e) {
     $(detail).slideToggle()
     
 }
+
+//Form submit
+ function onFormSubmit(e) {
+    e.preventDefault()
+
+    const email = $("#inp_email")
+    const subject = $("#inp_subject")
+    const message = $("#inp_message")
+
+    if (!$(email).val()) {
+        alert("Email required")
+    } else if (!$(subject).val()) {
+        alert("Subject required")
+    } else if (!$(message).val()) {
+        alert("Message required")
+    } else {
+        alert("Form submited")
+        $(email).val("")
+        $(subject).val("")
+        $(message).val("")
+    }
+ }
 
 // ini slideToggle about caraku sendiri
 // $(".button").click(function() {
