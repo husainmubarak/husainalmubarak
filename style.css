@@ -20,22 +20,24 @@ section::before {
     border-radius: 24px;
 }
 
-.btn:hover, .btn.active {
+.btn:hover, .btn.active, .btn.picik {
     border: 3px solid rgba(0, 0, 0, 0.25);
-    /* background-color: black; */
     color: deepskyblue;
 }
 
 .navbar {
     background-color: white;
-    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.25);
     position: sticky;
     top: 0;
     z-index: 1;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .navbar-brand {
-    font-size: 48px;
+    font-size: 42px;
+    font-weight: 700;
 }
 
 .navbar-nav a {
@@ -47,11 +49,13 @@ section::before {
 }
 
 .home h1 {
-    font-size: 48px;
+    font-size: 38px;
+    font-weight: 700;
 }
 
 .home h3 {
     font-size: 32px;
+    font-weight: 500;
 }
 
 .home img {

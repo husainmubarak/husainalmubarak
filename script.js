@@ -30,13 +30,11 @@ function toggleDetail(e) {
     } else if (!$(message).val()) {
         alert("Message required")
     } else {
-        alert("Form submited")
         $(email).val("")
         $(subject).val("")
         $(message).val("")
     }
  }
-
 // ini slideToggle about caraku sendiri
 // $(".button").click(function() {
 //     if($(this).hasClass("active")) {
