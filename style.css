@@ -20,7 +20,7 @@ section::before {
     border-radius: 24px;
 }
 
-.btn:hover, .btn.active, .btn.picik {
+.btn:hover, .btn.active {
     border: 3px solid rgba(0, 0, 0, 0.25);
     color: deepskyblue;
 }

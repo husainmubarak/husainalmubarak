@@ -35,6 +35,7 @@ function toggleDetail(e) {
         $(message).val("")
     }
  }
+ 
 // ini slideToggle about caraku sendiri
 // $(".button").click(function() {
 //     if($(this).hasClass("active")) {
